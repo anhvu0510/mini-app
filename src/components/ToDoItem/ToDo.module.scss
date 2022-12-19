@@ -1,0 +1,38 @@
+$appColor: #db9808;
+.todo-item {
+    display: flex;
+    // width: 100%;
+
+    .todo-item__title {
+        color: $appColor;
+        flex-grow: 1;
+        border: 1px outset black;
+        font-size: 2rem;
+    }
+
+    .todo-item__btn {
+        color: $appColor;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.todo-desc {
+    max-width: 70%;
+    padding: 5px;
+    border: 1px solid black;
+    flex-grow: 1;
+
+    .todo-desc__title {
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .todo-desc__area {
+        width: -webkit-fill-available;
+        font-size: large;
+        height: 200px;
+    }
+}

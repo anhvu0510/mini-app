@@ -1,0 +1,35 @@
+$appColor: #db9808;
+
+.todo-list {
+    color: $appColor;
+    max-width: 30%;
+    padding: 5px;
+    flex-grow: 2;
+    border: 1px solid black;
+    margin-right: 2px;
+
+    .todo-list__title {
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        text-decoration: double;
+    }
+
+    .todo-list-action {
+        width: 100%;
+        margin: 2px;
+        input: {
+            width: 100%;
+            font-size: 4rem;
+        }
+        button {
+            margin: 2px 2px;
+        }
+    }
+
+    .todo-list__jobs {
+        min-height: 20px;
+        border: 1px solid black;
+        padding: 2px;
+    }
+}

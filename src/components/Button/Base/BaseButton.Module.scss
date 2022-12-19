@@ -1,0 +1,42 @@
+.btn {
+    display: inline-block;
+    // margin: 12px 20px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    min-width: 100px;
+    background-color: rgb(249, 121, 15);
+    padding: 8px 32px;
+    border-radius: 18px 2px;
+    cursor: pointer;
+    transition: opacity 0.2s linear;
+    box-shadow: 0 2px 8px #96cd0b;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn + .btn {
+    margin-left: 20px;
+}
+
+.btn--danger {
+    background-color: rgb(234, 113, 14);
+}
+
+.btn--info {
+    background-color: blue;
+}
+
+.btn--warning {
+    background-color: yellow;
+}
+
+.btn--disabled {
+    // color: purple;
+    opacity: 0.5 !important;
+    cursor: default;
+}
